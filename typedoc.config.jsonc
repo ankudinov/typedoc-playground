@@ -1,0 +1,14 @@
+{
+    "searchInComments": true,
+    "searchInDocuments": true,
+    "$schema": "https://typedoc.org/schema.json",
+    "logLevel": "Verbose",
+
+    // "entryPoints": ["src/index.md"],
+    "readme": "src/index.md",
+    "projectDocuments": [
+        "src/aaa_settings.md"
+    ],
+
+    "out": "site"
+}
