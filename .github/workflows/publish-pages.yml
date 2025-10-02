@@ -26,9 +26,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      # - name: Build Site
-      #   run: |
-      #     add node build and setup here later
+      - name: setup Node
+        uses: actions/setup-node@v5
+
+      - name: Build Site
+        run: |
+          bash -lc 'if [ ! -f package.json ]; then npm init -y; fi && npm install --save-dev typedoc
+          npx typedoc --options typedoc.config.jsonc
 
       - name: Setup Pages 📖
         uses: actions/configure-pages@v5
