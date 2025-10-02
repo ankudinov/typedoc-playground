@@ -6,7 +6,7 @@ title: password
 
 Key Name | Type | Required
 ---------|------|---------
-`password` | string | false
+`password` | str | false
 
 ## Description
 
