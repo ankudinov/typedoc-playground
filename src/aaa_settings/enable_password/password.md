@@ -1,13 +1,24 @@
 ---
 title: password
 ---
+
+## Key
+
 `password`
 
-SHA512 hashed password
+## Type
+
+string
+
+## Description
+
+SHA512 hashed password.
 
 ## Path
 
-`$.aaa_settings.enable_password.password`
+> NOTE: We are using the [same format as jq](https://jqlang.org/) to specify the path to the key.
+
+`.aaa_settings.enable_password.password`
 
 ## Example
 
@@ -16,3 +27,11 @@ aaa_settings:
     enable_password:
         password: <SHA512 hashed password>
 ```
+
+## Child Keys
+
+none
+
+## Parent Key
+
+- [`enable_password`](../enable_password.md)
