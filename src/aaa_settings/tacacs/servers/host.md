@@ -25,7 +25,7 @@ Combination of `host` and `vrf` should be unique.
 aaa_settings:
     tacacs:
         servers:
-            host: 10.54.76.8
+            - host: 10.54.76.8
 ```
 
 ## Child Keys
@@ -34,4 +34,4 @@ none
 
 ## Parent Key
 
-- [`enable_password`](../servers.md)
+- [`servers`](../servers.md)
