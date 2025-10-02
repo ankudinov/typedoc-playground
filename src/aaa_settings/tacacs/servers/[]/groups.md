@@ -1,23 +1,22 @@
 ---
-title: host
+title: groups
 ---
 
 ## Key
 
 Key Name | Type | Required
 ---------|------|---------
-`host` | str | true
+`groups` | list | true
 
 ## Description
 
-Host IP address or name.
-Combination of `host` and `vrf` should be unique.
+none
 
 ## Path
 
 > NOTE: We are using the [same format as jq](https://jqlang.org/) to specify the path to the key.
 
-`.aaa_settings.tacacs.servers.host`
+`.aaa_settings.tacacs.servers.groups`
 
 ## Example
 
@@ -25,7 +24,7 @@ Combination of `host` and `vrf` should be unique.
 aaa_settings:
     tacacs:
         servers:
-            - host: 10.54.76.8
+            - groups: [ TACACS_GROUP ]
 ```
 
 ## Child Keys
@@ -34,4 +33,4 @@ none
 
 ## Parent Key
 
-- [`servers`](../servers.md)
+- [`servers`](../../servers.md)

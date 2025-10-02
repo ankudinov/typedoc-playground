@@ -1,8 +1,7 @@
 ---
 title: servers
 children:
-    - servers/host.md
-    - servers/groups.md
+    - servers/[].md
 ---
 
 ## Key
@@ -33,8 +32,8 @@ aaa_settings:
 
 ## Child Keys
 
-- [`host`](servers/host.md)
-- [`groups`](servers/groups.md)
+- [`host`](servers/[]/host.md)
+- [`groups`](servers/[]/groups.md)
 
 ## Parent Key
 
