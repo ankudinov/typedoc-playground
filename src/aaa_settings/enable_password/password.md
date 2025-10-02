@@ -4,11 +4,9 @@ title: password
 
 ## Key
 
-`password`
-
-## Type
-
-string
+Key Name | Type | Required
+---------|------|---------
+`password` | string | false
 
 ## Description
 

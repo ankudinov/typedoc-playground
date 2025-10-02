@@ -3,15 +3,12 @@ title: enable_password
 children:
     - enable_password/password.md
 ---
----
 
 ## Key
 
-`enable_password`
-
-## Type
-
-dict
+Key Name | Type | Required
+---------|------|---------
+`enable_password` | dict | false
 
 ## Description
 

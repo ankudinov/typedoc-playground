@@ -5,9 +5,21 @@ children:
     - aaa_settings/tacacs.md
 ---
 
-`aaa_settings`
+## Key
 
-`aaa_settings` is an eos_designs key used to configure AAA.
+Key Name | Type | Required
+---------|------|---------
+`aaa_settings` | dict | false
+
+## Description
+
+none
+
+## Path
+
+> NOTE: We are using the [same format as jq](https://jqlang.org/) to specify the path to the key.
+
+`.aaa_settings`
 
 ## Example
 
@@ -15,12 +27,16 @@ children:
 aaa_settings:
     enable_password:
         password: <SHA512 hashed password>
-  tacacs:
-    servers:
-      - host: 1.2.3.4
+    tacacs:
+        servers:
+            - host: 1.2.3.4
 ```
 
-## Keys
+## Child Keys
 
 - [`enable_password`](aaa_settings/enable_password.md)
 - [`tacacs`](aaa_settings/tacacs.md)
+
+## Parent Key
+
+none
