@@ -1,0 +1,10 @@
+{
+    "image": "ghcr.io/aristanetworks/aclabs/dev:latest",
+    "containerUser": "vscode",
+    "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+            "version": "lts"
+        }
+    },
+    "postCreateCommand": "bash -lc 'if [ ! -f package.json ]; then npm init -y; fi && npm install --save-dev typedoc'"
+}
