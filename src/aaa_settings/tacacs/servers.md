@@ -28,12 +28,16 @@ aaa_settings:
         servers:
             - host: 10.54.76.8
               groups: [ TACACS_GROUP ]
+              vrf: RED
 ```
 
 ## Child Keys
 
 - [`host`](servers/[]/host.md)
 - [`groups`](servers/[]/groups.md)
+- [`vrf`](servers/[]/vrf.md)
+- [`key`](servers/[]/key.md)
+- [`cleartext_key`](servers/[]/cleartext_key.md)
 
 ## Parent Key
 
