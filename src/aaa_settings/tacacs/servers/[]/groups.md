@@ -16,7 +16,7 @@ none
 
 > NOTE: We are using the [same format as jq](https://jqlang.org/) to specify the path to the key.
 
-`.aaa_settings.tacacs.servers.groups`
+`.aaa_settings.tacacs.servers[].groups`
 
 ## Example
 

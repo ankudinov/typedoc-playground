@@ -17,7 +17,7 @@ Combination of `host` and `vrf` should be unique.
 
 > NOTE: We are using the [same format as jq](https://jqlang.org/) to specify the path to the key.
 
-`.aaa_settings.tacacs.servers.host`
+`.aaa_settings.tacacs.servers[].host`
 
 ## Example
 
